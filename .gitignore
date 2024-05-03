@@ -130,3 +130,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+#Junk
+.vscode/
+.idea/
