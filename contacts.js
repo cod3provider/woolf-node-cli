@@ -18,7 +18,7 @@ export async function listContacts() {
 export async function getContactById(contactId) {
   try {
     const contacts = await listContacts();
-    const foundContact = contacts.find(contact => contact.id = contactId);
+    const foundContact = contacts.find(contact => contact.id === contactId);
     return foundContact || null;
   }
   catch (err) {
